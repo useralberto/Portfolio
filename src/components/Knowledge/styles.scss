@@ -1,0 +1,16 @@
+.Knowledge {
+  &__item {
+    border: 1px solid var(--gray-strong);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+    &--title {
+      color: var(--gray-strong);
+    }
+    &--description {
+      font-size: 15px;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.Training {
+  &__item {
+    &--date {
+      font-weight: 700;
+      font-size: 17px;
+    }
+    &--title {
+      font-size: 27px;
+      font-weight: 600;
+    }
+    &--content {
+      border-left: 1px solid var(--gray-strong);
+    }
+    &--info {
+      color: var(--gray-strong);
+      font-size: 15px;
+    }
+  }
+}

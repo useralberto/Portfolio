@@ -1,0 +1,17 @@
+.Projects {
+  &__item {
+    border: 1px solid var(--gray-strong);
+    border-radius: 5px;
+    &--title {
+      font-size: 32px;
+      font-weight: 600;
+    }
+    &--message {
+      font-size: 15px;
+      a {
+        color: var(--gray-strong);
+      }
+    }
+    height: 100%;
+  }
+}

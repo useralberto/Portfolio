@@ -1,0 +1,114 @@
+.SideBar {
+  position: sticky;
+  top: 0%;
+  &__photo {
+    z-index: 1;
+    position: relative;
+    position: relative;
+    height: 270px;
+    width: 270px;
+    overflow: hidden;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @media (max-width: 1399px) {
+      width: 210px;
+      height: 210px;
+      img {
+        width: 195px;
+      }
+    }
+    &::before {
+      z-index: -1;
+      content: "";
+      width: 100%;
+      position: absolute;
+      top: 0%;
+      left: 0%;
+      height: 100%;
+
+      background-color: #000000;
+      opacity: 0.7;
+      background-image: radial-gradient(#ffffff 0.5px, #000000 0.5px);
+      background-size: 10px 10px;
+    }
+    img {
+      animation-name: ShowPhoto;
+      animation-duration: 0.8s;
+      animation-timing-function: ease-in-out;
+      animation-fill-mode: forwards;
+    }
+  }
+  &__body {
+    &--name {
+      font-size: 33px;
+      font-weight: 600;
+      span {
+        display: block;
+        color: var(--gray-strong);
+        font-size: 25px;
+        font-weight: 400;
+      }
+    }
+    &--links {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      .link {
+        color: var(--gray-strong);
+        &:hover {
+          color: var(--black);
+        }
+      }
+    }
+    &--subtitle {
+      font-size: 20px;
+      color: var(--gray-strong);
+    }
+  }
+}
+
+.SideBardark {
+  .SideBar__photo {
+    &::before {
+      background-color: #ffffff;
+      opacity: 0.7;
+      background-image: radial-gradient(#000000 0.5px, #ffffff 0.5px);
+      background-size: 10px 10px;
+    }
+    img {
+      animation-name: ShowBg;
+      animation-duration: 0.8s;
+      animation-timing-function: ease-in-out;
+      animation-fill-mode: forwards;
+    }
+  }
+  .SideBar__body--links {
+    .link:hover {
+      color: var(--white);
+    }
+    img {
+      filter: invert(1);
+    }
+  }
+}
+
+@keyframes ShowPhoto {
+  0% {
+    transform: translateY(100px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes ShowBg {
+  0% {
+    transform: translateY(100px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
