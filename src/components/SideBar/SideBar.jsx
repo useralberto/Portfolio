@@ -1,4 +1,6 @@
 import photo from "../../assets/lalonso-v2.webp";
+import File from "../../assets/file.svg";
+import CV from "../../assets/Lucas-Alberto-Alonso-Cruz-CV.pdf";
 import { useApp } from "../../hooks";
 import { Contact, SocialMedia } from "./Links";
 
@@ -7,7 +9,7 @@ import "./styles.scss";
 export const SideBar = function () {
   const { ThemeDark } = useApp();
   return (
-    <div className={`SideBar p-3 ${ThemeDark ? "SideBardark" : ""}`}>
+    <div className={`SideBar p-3 p-lg-2 ${ThemeDark ? "SideBardark" : ""}`}>
       <div className={`SideBar__photo`}>
         <img
           src={photo}
@@ -17,11 +19,16 @@ export const SideBar = function () {
           className="img-fluid"
         />
       </div>
+
       <div className="SideBar__body">
         <h1 className="SideBar__body--name mt-4">
           Lucas Alberto
           <span> Alonso Cruz</span>
         </h1>
+        <a href={CV} download className="btn SideBar__body--cv my-3">
+          <img src={File} alt="File" className="img-fluid me-2" />
+          Descargar CV
+        </a>
         <ul className="SideBar__body--links p-0 m-0">
           {Contact.map((link, index) => (
             <li key={index} className=" me-3 my-2">
