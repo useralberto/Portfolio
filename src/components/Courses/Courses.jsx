@@ -15,15 +15,15 @@ export const Courses = function () {
       description: "",
     },
     {
-      title: "Fundamentos y desarrollo React js.",
+      title: "Desarrollo con React js.",
       date: "Oct.2022 - Ene.2023",
-      category: "Autodidacta",
+      category: "Udemy",
       description: "",
     },
     {
-      title: "Fundamentos y desarrollo Vue js.",
+      title: "Desarrollo con Vue js.",
       date: "Nov.2022 - Ene.2023",
-      category: "Autodidacta",
+      category: "Udemy",
       description: "",
     },
   ];

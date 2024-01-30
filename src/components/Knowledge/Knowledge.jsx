@@ -7,7 +7,7 @@ export const Knowledge = function () {
     },
     {
       title: "Librerías y Frameworks",
-      description: "Jquery, Bootstrap, Django, Vue js.",
+      description: "Jquery, Bootstrap, Django, Vue js, React js",
     },
     {
       title: "Sistemas Operativos",
