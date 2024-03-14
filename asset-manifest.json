@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.d56f0a7b.css",
-    "main.js": "/portfolio/static/js/main.2f9b734c.js",
+    "main.js": "/portfolio/static/js/main.27d3fb17.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/project5.webp": "/portfolio/static/media/project5.d3de6d7bbe74396db927.webp",
     "static/media/project1.webp": "/portfolio/static/media/project1.7df77bb83be43e5a210a.webp",
     "static/media/project6.webp": "/portfolio/static/media/project6.a8c519b256ed5eb1dc25.webp",
     "static/media/project3.webp": "/portfolio/static/media/project3.2e62528d01268d8cf6f0.webp",
-    "static/media/Lucas-Alberto-Alonso-Cruz-CV.pdf": "/portfolio/static/media/Lucas-Alberto-Alonso-Cruz-CV.36cd06810c52c2193a77.pdf",
     "static/media/project2.webp": "/portfolio/static/media/project2.26b8ed91246c98f8625a.webp",
+    "static/media/Lucas-Alberto-Alonso-Cruz-CV.pdf": "/portfolio/static/media/Lucas-Alberto-Alonso-Cruz-CV.b0b1646f339af60d8540.pdf",
     "static/media/project4.webp": "/portfolio/static/media/project4.b41f32b6c4bc1899fa57.webp",
     "static/media/lalonso-v2.webp": "/portfolio/static/media/lalonso-v2.c966bfd4df283ec7f45a.webp",
     "static/media/file.svg": "/portfolio/static/media/file.51d0e8ced5af0c786458c3a62abb6218.svg",
@@ -20,11 +20,11 @@
     "static/media/mailbox.svg": "/portfolio/static/media/mailbox.749fa49d0186deb3b787bc796c0f3f63.svg",
     "static/media/pin.svg": "/portfolio/static/media/pin.8b871f283f265e65c5d00e4c1c758798.svg",
     "main.d56f0a7b.css.map": "/portfolio/static/css/main.d56f0a7b.css.map",
-    "main.2f9b734c.js.map": "/portfolio/static/js/main.2f9b734c.js.map",
+    "main.27d3fb17.js.map": "/portfolio/static/js/main.27d3fb17.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d56f0a7b.css",
-    "static/js/main.2f9b734c.js"
+    "static/js/main.27d3fb17.js"
   ]
 }
