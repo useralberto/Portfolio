@@ -2,11 +2,11 @@ import "./styles.scss";
 import Award from "../../assets/award.svg";
 export const AboutMe = function () {
   const Lists = [
-    "🔭 Actualmente estoy trabajando en BizNet Hub y BizNet Connect (repositorios privados)",
-    "🔭 Tengo un plugin para Craft CMS <a href='https://plugins.craftcms.com/base64-filters' target='_black' rel='noopener noreferrer'>Base64 filters</a>",
+    "🔭 Actualmente estoy trabajando en BizNet Hub y BizNet Connect (repositorios privados).",
+    "🔭 Los plugins en los que he trabajado para Craft CMS son <a href='https://plugins.craftcms.com/base64-filters' target='_black' rel='noopener noreferrer'>Base64 filters</a> y <a href='https://github.com/Brand-Industry/Lead-scoring-system' target='_black' rel='noopener noreferrer'>Lead Scoring System</a>.",
     "🔭 Tengo un repositorio orientado a la <a href='https://github.com/useralberto/configVim' target='_black' rel='noopener noreferrer'>configuración de Neovim</a>.",
-    "🌱 Actualmente estoy aprendiendo React Native, y a crear complementos y módulos en Craft CMS",
-    "💬 Pregúntame sobre Craft CMS, Vue, React js y Django Framework",
+    "🌱 Actualmente estoy aprendiendo React Native, y en constante actualización en crear plugins y módulos en Craft CMS.",
+    "💬 Pregúntame sobre Craft CMS, Vue, React js y Django Framework.",
   ];
   const Skills = [
     "Creatividad",
